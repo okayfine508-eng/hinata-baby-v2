@@ -352,8 +352,8 @@ module.exports = {
      await downloadFile(randomVideoUrl, filePath);
      api.sendMessage(
      { body: caption, attachment: fs.createReadStream(filePath) }, event.threadID, () => fs.unlinkSync(filePath), event.messageID);} catch (error) {
-    api.sendMessage("❌ | 𝐅𝐚𝐢𝐥𝐞𝐝 𝐭𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐭𝐡𝐞 𝐯𝐢𝐝𝐞𝐨.", event.threadID, event.messageID); }} catch (error) {
-    api.sendMessage("🥹error, contact MahMUD.", event.threadID, event.messageID);
+     api.sendMessage("❌ | 𝐅𝐚𝐢𝐥𝐞𝐝 𝐭𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐭𝐡𝐞 𝐯𝐢𝐝𝐞𝐨.", event.threadID, event.messageID); }} catch (error) {
+     api.sendMessage("🥹error, contact MahMUD.", event.threadID, event.messageID);
     }
   }
 };
