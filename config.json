@@ -12,12 +12,12 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "adminOnly": {
+  "adminOnly":on {
     "enable": false,
     "ignoreCommand": []
   },
   "adminBot": [
-    "61585485892090"
+    "100092405156058"
   ],
   "whiteListMode": {
     "enable": false,
